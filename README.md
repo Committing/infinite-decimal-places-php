@@ -23,3 +23,8 @@ You can include the class directly in your project:
 
 ```php
 require_once 'math.class.php';
+
+$math = new math();
+$math->max_decimals = 10000;
+
+echo $math->divide(10, 3);
